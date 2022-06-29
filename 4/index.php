@@ -151,9 +151,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $policy = $_POST['policy'];
     $powers = implode(',', $_POST['abilities']);
 
-    $user = 'u47601';
-    $pass = '7251756';
-    $db = new PDO('mysql:host=localhost;dbname=u47601', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+    $user = 'u47831';
+    $pass = '4634645';
+    $db = new PDO('mysql:host=localhost;dbname=u47831', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
     try {
         $stmt = $db->prepare("INSERT INTO users SET name = ?, email = ?, date = ?, gender = ?, limbs = ?, bio = ?, policy = ?");
