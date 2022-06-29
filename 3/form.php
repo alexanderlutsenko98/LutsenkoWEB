@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
     <script src="index.js" defer></script>
-    <title>Лагун П. 3-ий ВЕБ</title>
+    <title>Луценко 3-ий ВЕБ</title>
 </head>
 <body>
     <div class="form-container">
